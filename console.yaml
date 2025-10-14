@@ -1,0 +1,11 @@
+apiVersion: console.streamshub.github.com/v1alpha1
+kind: Console
+metadata:
+  name: console
+  namespace: streams-kafka
+spec:
+  hostname: my-console.apps.cluster-cj989.cj989.sandbox340.opentlc.com
+  kafkaClusters:
+    - listener: plain
+      name: my-cluster
+      namespace: streams-kafka
