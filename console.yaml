@@ -9,3 +9,6 @@ spec:
     - listener: plain
       name: my-cluster
       namespace: streams-kafka
+      credentials:
+        kafkaUser:
+          name: console-user
